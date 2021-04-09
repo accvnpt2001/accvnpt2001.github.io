@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #ebebeb;
+}
+/* Begin header */
+.header{
+    width: 100%;
+    height: 50px;
+    background-image: url(https://icapi.org/wp-content/uploads/2019/10/anh-bia-facebook-dep-41.jpg) ;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+.dangnhap{
+    position: absolute;
+    right: 60px;
+    bottom: 0px;
+    display: flex;
+    list-style: none;
+}
+.dangnhap li a{
+    font-size: 16px;
+    margin: 0px 15px;
+    line-height: 50px;
+    color: aliceblue;
+    display: block;
+}
+
+input{
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    top: 10%;
+    left: 35%;
+    font-size: 20px;
+}
+.cloud{
+    position: relative;
+    left: 70%;
+    font-size: 40px;
+    color: white;
+    line-height: 50px;
+}
+.logo{
+    position: absolute;
+    left: 60px;
+    line-height: 50px;
+}
+
+.search-btn{
+    position: absolute;
+    right: 35%;
+    top: 10%;
+    bottom: 10%;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+.search-btn:hover{
+    background-color: #c2c2c2;
+    cursor: pointer;
+}
+/* End Header  */
+
+/* Begin tools  */
+.tools{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color:#e4e4e4;;
+    top: 50px;
+}
+.home-icon{
+    position: absolute;
+    line-height: 40px;
+    font-size: 30px;
+    left: 15%;
+    padding: 0px 11px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.sub-tool li{
+    position: relative;
+    left: 20%;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Tahoma,sans-serif,Helvetica,Arial;
+}
+.sub-tool li a{
+    color: black;
+    text-decoration: none;
+    padding: 11px 15px;
+}
+.sub-tool li a:hover,
+.home-btn .home-icon:hover{
+    background-color: #c2c2c2;
+    color: rgb(11, 50, 177);
+}
+/* End tools  */
+
+.slider{
+    position: absolute;
+    width: 80%;
+    height: 1050px;
+    margin-left: 10%;
+    top: 90px;
+    display: flex ;
+    flex-direction: row;
+}
+.noidung{
+    width: 80%;
+    background-color: white;
+}
+.dieuhuong ul{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+.dieuhuong .dieu-huong li a,
+.dieu-huong .sub-icon{
+    color: #4698cf;
+    display: inline-block;
+    margin: 5px 5px;
+    text-decoration: none;
+}
+.dieuhuong .dieu-huong li a:hover{
+    text-decoration:underline;
+}
+.thongtin{
+    display: flex;
+    position:absolutes;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #646464;
+    font-weight: 400;
+    font-family: Tahoma,sans-serif,Helvetica,Arial;;
+}
+.cap-nhat{
+    text-align: center;
+    color: #afafaf;
+    padding: 5px 0px;
+    font-style: italic;
+}
+.sub-thongtin{
+    width: 420px;
+    height: 498px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.tt1{
+    display: flex;
+    flex-direction: column;
+}
+.tt1-1, .tt1-2, .tt1-3, .tt1-4, .tt1-5, .tt2, .tt3{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.kishi a{
+    padding-left: 45px;
+    color: #4698cf;
+    text-decoration: none;
+}
+.kishi a:hover{
+    color: rgb(183, 0, 255);
+}
+
+
+
+/* End .sub-thongtin */
+.danhsach{
+    border-style: groove;
+    width: 100%;
+    height: 438px;
+}
+h4{
+    color: #646464;
+    font-size: large;
+}
+.quangcao{
+    width: 20%;
+    height: 1050px;
+    background-color: azure;
+    text-align: center;
+    font-size: large;
+}
